@@ -1,0 +1,624 @@
+body, form { padding:0px; }
+form { margin:0px; }
+
+body {
+	scrollbar-face-color: #D2D2D2; 
+	scrollbar-arrow-color: #000000; 
+	scrollbar-base-color: #D2D2D2; 
+	scrollbar-shadow-color: #D2D2D2; 
+	scrollbar-darkshadow-color: #D2D2D2; 
+	scrollbar-highlight-color: #D2D2D2; 
+	scrollbar-3d-light-color: #D2D2D2; 
+	scrollbar-track-color: #F7F7F7;
+	font-size: 9pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Controls	*/
+select, button { cursor:pointer; }
+option { color:#000066; }
+
+
+fieldset{
+	padding:4px;
+	border: 1px solid #6694E3;
+}
+
+
+/* Gradient button */
+a.button, input.button, button{
+	color:#000000;	
+	background:#E3E3E3 url(../images/buttons/btn-x.gif) repeat-x left top;
+	display:inline-block;
+
+	border: solid 1px #BBBBBB;
+	
+	padding:2px 3px;
+	text-decoration: none;
+	text-align:center
+            
+}
+a.button { padding-top:3px; padding-bottom:3px; *padding-bottom:3px; }
+button { margin-left:3px; }
+
+a.button:active, a.button:hover, input.button:active, input.button:hover, button:active, button:hover { border: solid 1px #939393; }
+
+/* End Buttons ------------------------------------------------ */
+
+
+
+TD {
+	COLOR: #000000; FONT-FAMILY: arial; FONT-SIZE: 10pt; FONT-WEIGHT: normal
+}
+TD.text_ {
+	COLOR: #000000; FONT-FAMILY: arial; FONT-SIZE: 9pt; FONT-WEIGHT: bold; PADDING-BOTTOM: 4px; PADDING-LEFT: 6px; PADDING-TOP: 3px
+}
+TD.text__ {
+	COLOR: #000000; FONT-FAMILY: arial; FONT-SIZE: 9pt; FONT-WEIGHT: normal; PADDING-BOTTOM: 4px; PADDING-LEFT: 6px; PADDING-TOP: 3px
+}
+TD.text1 {
+	COLOR: #7a7a7a; FONT-FAMILY: tahoma, verdana, arial; FONT-SIZE: 8pt; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px
+}
+TD.text2 {
+	COLOR: #000000; FONT-FAMILY: tahoma, verdana, arial; FONT-SIZE: 8pt; FONT-WEIGHT: bold; PADDING-LEFT: 6px
+}
+TD.text3 {
+	COLOR: #000000; FONT-FAMILY: tahoma, verdana, arial; FONT-SIZE: 8pt
+}
+TD.text4 {
+	COLOR: #7a7a7a; FONT-FAMILY: tahoma, verdana, arial; FONT-SIZE: 10pt; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px
+}
+TD.text4_ {
+	COLOR: #7a7a7a; FONT-FAMILY: tahoma, verdana, arial; FONT-SIZE: 8pt; FONT-WEIGHT: bold; PADDING-BOTTOM: 4px; PADDING-LEFT: 6px; PADDING-TOP: 3px
+}
+
+TD.text5 {
+	COLOR: #7a7a7a; FONT-FAMILY: tahoma, verdana, arial; FONT-SIZE: 10pt; FONT-WEIGHT: bold; PADDING-BOTTOM: 4px; PADDING-LEFT: 6px; PADDING-TOP: 3px
+}
+TD.text5_ {
+	COLOR: #7a7a7a; FONT-FAMILY: tahoma, verdana, arial; FONT-SIZE: 10pt; FONT-WEIGHT: bold; PADDING-BOTTOM: 4px; PADDING-LEFT: 6px; PADDING-TOP: 3px
+}
+TD.text6 {
+	COLOR: #000000; FONT-FAMILY: tahoma, verdana, arial; FONT-SIZE: 10pt; FONT-WEIGHT: bold
+}
+TD.text7 {
+	COLOR: #7a7a7a; FONT-FAMILY: tahoma, verdana, arial; FONT-SIZE: 8pt; FONT-WEIGHT: bold; PADDING-BOTTOM: 3px; PADDING-TOP: 2px
+}
+
+TD.menu_col{
+	BACKGROUND: #E7E7E7; FONT-FAMILY: tahoma, verdana, arial; FONT-SIZE: 10pt; FONT-WEIGHT: normal; PADDING-BOTTOM: 6px; PADDING-LEFT: 6px; PADDING-TOP: 6px
+}
+
+
+TD.text8 {
+	COLOR: #000000; FONT-FAMILY: tahoma, verdana, arial; FONT-SIZE: 10pt; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px
+}
+TD.textmy {
+	COLOR: #000000; FONT-FAMILY: tahoma, verdana, arial; FONT-SIZE: 9pt; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px
+}
+.pppt {
+	COLOR: #7a7a7a; FONT-SIZE: 8pt; FONT-STYLE: normal; FONT-VARIANT: normal; FONT-WEIGHT: normal; LINE-HEIGHT: normal; MARGIN: 0px 8px 4px 0px; TEXT-ALIGN: left
+}
+
+A.header {
+	COLOR: #7a7a7a; FONT-FAMILY: arial, tahoma, verdana ; FONT-SIZE: 15pt; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+
+
+A.header:hover {
+	COLOR: #990000; FONT-FAMILY:  arial, tahoma, verdana ; FONT-SIZE: 15pt; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+
+
+
+A.menu {
+	COLOR: #7a7a7a; FONT-FAMILY: arial, tahoma, verdana, ; MARGIN-LEFT: 8px; FONT-SIZE: 12pt; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+
+A.menu.hover {
+	COLOR: #990000; FONT-FAMILY: arial, tahoma, verdana, ; MARGIN-LEFT: 8px; FONT-SIZE: 12pt; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+
+
+
+A.footer {
+	COLOR: #990000; FONT-FAMILY: arial, tahoma, verdana; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+
+A.footer:hover {
+	COLOR: #990000; FONT-FAMILY: arial, tahoma, verdana, ; MARGIN-LEFT: 8px; FONT-SIZE: 8pt; TEXT-DECORATION: underline
+}
+
+
+
+/* accessed */
+a.messageStatus_1 {
+	COLOR: #000066; 
+	FONT: 10pt Arial, tahoma, verdana; 
+	FONT-WEIGHT: normal
+}
+
+/* unread */
+a.messageStatus_2 {
+	COLOR: #000066; 
+	FONT: 10pt Arial, tahoma, verdana; 
+	FONT-WEIGHT: bold
+}
+
+/* sent */
+a.messageStatus_3 {
+	COLOR: #7a7a7a; 
+	FONT: 10pt Arial, tahoma, verdana; 
+	FONT-WEIGHT: normal
+}
+
+/* replied */
+a.messageStatus_4 {
+	COLOR: 007c00; 
+	FONT: 10pt Arial, tahoma, verdana; 
+	FONT-WEIGHT: normal
+}
+
+/* deleted */
+a.messageStatus_5 {
+	COLOR: #7a7a7a; 
+	FONT: 10pt Arial, tahoma, verdana; 
+	FONT-WEIGHT: normal;
+        TEXT-DECORATION: line-through;            
+}
+
+/* error sending */
+a.messageStatus_6 {
+	COLOR: #990000; 
+	FONT: 10pt Arial, tahoma, verdana; 
+	FONT-WEIGHT: normal
+}
+
+
+
+
+
+a.topMenuButtons {
+	COLOR: #123272; FONT-FAMILY: arial, tahoma, verdana ; MARGIN-LEFT: 8px; FONT-SIZE: 12pt; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+
+a.topMenuButtons.hover {
+	COLOR: #990000; FONT-FAMILY: arial, tahoma, verdana ; MARGIN-LEFT: 8px; FONT-SIZE: 12pt; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+
+
+a.topMenuButtonsSelected {
+	COLOR: #123272; FONT-FAMILY: arial, tahoma, verdana ; MARGIN-LEFT: 9px; FONT-SIZE: 13pt; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+
+a.goalDelayed {
+	COLOR: #a22c34; 
+	FONT: 9pt Arial, tahoma, verdana; 
+	FONT-WEIGHT: bold
+}
+
+
+a.goalPending {
+	COLOR: #000000; FONT-WEIGHT: bold; 
+	FONT: 9pt Arial, tahoma, verdana; 
+}
+
+
+a.goalCompleted {
+	COLOR: #7a7a7a; 
+	FONT: 9pt Arial, tahoma, verdana; 
+}
+
+a.goalProgress {
+	COLOR: #000066; 
+	FONT: 10pt Arial, tahoma, verdana; 
+	FONT-WEIGHT: normal
+}
+
+a.grayLink
+{
+        COLOR: gray;
+}
+
+
+
+.text_subheading {
+	COLOR: #7a7a7a; FONT-FAMILY: arial, tahoma, verdana; FONT-SIZE: 10pt; FONT-WEIGHT: bold; PADDING-BOTTOM: 4px; PADDING-LEFT: 6px; PADDING-TOP: 3px
+}
+
+.subtitle {
+	COLOR: #123272;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9pt;
+	FONT-FAMILY: tahoma, verdana, arial; 
+}
+
+
+.maintext {
+	COLOR: #000000; FONT: 11pt Arial
+}
+A.link {
+	COLOR: #990000; FONT: 11pt Helvetica; MARGIN-BOTTOM: 3px; MARGIN-LEFT: 3px; MARGIN-TOP: 3px; TEXT-ALIGN: left
+}
+.link1 {
+	COLOR: #000000; FONT: 10pt Arial; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 3px; MARGIN-TOP: 0px; TEXT-ALIGN: left
+}
+A.link:unknown {
+	COLOR: #990000; TEXT-DECORATION: none
+}
+
+A.link:hover {
+	COLOR: #990000; TEXT-DECORATION: underline
+}
+
+.textr {
+	COLOR: #990000; FONT-FAMILY: tahoma, verdana, arial; FONT-SIZE: 10pt; FONT-WEIGHT: bold; PADDING-TOP: 6px
+}
+
+.headertop {
+	BACKGROUND: #f7f7f7;
+	FONT-SIZE: 14pt; FONT-STYLE: normal; FONT-VARIANT: normal; FONT-WEIGHT: normal; LINE-HEIGHT: normal; MARGIN-LEFT: 50px; MARGIN-RIGHT: 8px; TEXT-ALIGN: left; arial,: #000000 
+}
+
+
+.subheading {
+	COLOR: #7a7a7a; FONT: bold 11pt tahoma, verdana, arial; MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px
+}
+
+.picto {
+	COLOR: #7a7a7a; FONT: bold 10pt tahoma, verdana, arial; MARGIN-BOTTOM: 2px
+}
+
+
+.dali {
+	COLOR: #990000
+}
+
+
+TD.title {
+	BACKGROUND: #D7D7D7;
+	COLOR: #990000; align="center"; FONT: bold 10pt tahoma, verdana, arial; MARGIN: 1px 5px 1px 0px
+}
+
+
+
+TD.td_grey_line {
+	BACKGROUND: #6694E3;
+	COLOR: #FFFFFF; align="center"; FONT: bold 10pt tahoma, verdana, arial; MARGIN: 1px 5px 1px 0px
+}
+
+
+TD.subtitle {
+	COLOR: #123272; align="center"; 
+	FONT: 9pt tahoma, verdana, arial; 
+}
+
+TD.lightBg {
+	BACKGROUND: #bed3f7;
+	COLOR: #123272; align="center"; 
+	FONT: bold 9pt tahoma, verdana, arial; 
+}
+
+
+
+TD.footer {
+	COLOR: #123272; align="center"; 
+	FONT: 9pt tahoma, verdana, arial; 
+	background-image:url(../images/panelBackground4.gif)
+}
+
+
+TD.goalDelayed {
+	COLOR: #a22c34; FONT-WEIGHT: bold; 
+	FONT: 9pt Arial, tahoma, verdana; 
+	FONT-WEIGHT: bold
+}
+
+
+TD.goalPending {
+	COLOR: #000000; FONT-WEIGHT: bold; 
+	FONT: 9pt Arial, tahoma, verdana; 
+}
+
+
+TD.goalCompleted {
+	COLOR: #7a7a7a; 
+	FONT: 9pt Arial, tahoma, verdana; 
+}
+
+TD.goalProgress {
+	FONT: 11pt Arial, tahoma, verdana; 
+	FONT-WEIGHT: normal
+}
+
+
+.textheading {
+	COLOR: #123272; align=center; FONT: bold 10pt tahoma, verdana, arial; MARGIN: 1px 5px 1px 0px
+}
+
+.textheadingTotal {
+	COLOR: #123272; align=center; FONT: bold 11pt tahoma, verdana, arial; MARGIN: 1px 5px 1px 0px
+}
+
+.textbody {
+	COLOR: #7a7a7a; FONT-FAMILY: tahoma, verdana, arial; FONT-SIZE: 10pt; FONT-WEIGHT: bold; PADDING-BOTTOM: 4px; PADDING-LEFT: 6px; PADDING-TOP: 3px
+}
+
+
+
+.date {
+	COLOR: #FFFFFF; FONT: bold 9pt tahoma, verdana, arial; 
+	MARGIN-BOTTOM: 0px; 
+	MARGIN-LEFT: 6px; 
+	MARGIN-TOP: 0px;
+	BACKGROUND: #6694E3;
+}
+
+
+
+A {
+	COLOR: #123272; FONT-FAMILY: arial,tahoma, verdana; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+
+
+A:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+
+
+
+
+
+.b {
+	COLOR: #000000; FONT-FAMILY: tahoma, verdana, arial; FONT-SIZE: 12pt; TEXT-DECORATION: none
+}
+
+
+.b:hover {
+	COLOR: #990000; TEXT-DECORATION: none
+}
+A.g {
+	COLOR: #7a7a7a; TEXT-DECORATION: none
+}
+A.g:visited {
+	COLOR: #7a7a7a; TEXT-DECORATION: none
+}
+A.g:hover {
+	COLOR: #990000; TEXT-DECORATION: none
+}
+A.raz {
+	COLOR: #000000; FONT-FAMILY: tahoma, verdana, arial; FONT-SIZE: 10pt; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.raz:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.raz:hover {
+	COLOR: #990000; TEXT-DECORATION: none
+}
+.b21 {
+	MARGIN-BOTTOM: 10px FONT-SIZE: 10pt;
+}
+A.b2 {
+	COLOR: #000000; FONT-FAMILY: arial; FONT-SIZE: 10pt; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.b2:visited {
+	COLOR: #7a7a7a; TEXT-DECORATION: none
+}
+A.b2:hover {
+	COLOR: #990000; TEXT-DECORATION: none
+}
+A.r {
+	COLOR: #990000; FONT-FAMILY: tahoma, verdana, arial; FONT-SIZE: 10pt; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.r:visited {
+	COLOR: #990000; TEXT-DECORATION: none
+}
+A.r2 {
+	COLOR: #990000; TEXT-DECORATION: none
+}
+A.r2:visited {
+	COLOR: #990000; TEXT-DECORATION: none
+}
+.titleg2 {
+	COLOR: #990000; FONT: bold 10pt tahoma, verdana, arial; MARGIN: 1px 5px 1px 0px
+}
+.w2 {
+	COLOR: #7a7a7a; FONT: bold 8pt tahoma, verdana, arial; MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px
+}
+.search {
+	BACKGROUND: #f7f7f7; BORDER-BOTTOM-COLOR: #c9c9c9; BORDER-BOTTOM-STYLE: solid; BORDER-LEFT-COLOR: #c9c9c9; BORDER-LEFT-STYLE: solid; BORDER-RIGHT-COLOR: #c9c9c9; BORDER-RIGHT-STYLE: solid; BORDER-TOP-COLOR: #c9c9c9; BORDER-TOP-STYLE: solid; COLOR: #7a7a7a; FONT-FAMILY: tahoma, verdana, arial; FONT-SIZE: 8pt; FONT-WEIGHT: bold
+}
+
+.goalTypes {
+
+	BACKGROUND: #f7f7f7; 
+	BORDER-COLOR: #e0ecff; 
+
+	BORDER-STYLE: solid; 
+
+	COLOR: #000066; 
+	FONT-FAMILY: tahoma, verdana, arial; 
+	FONT-SIZE: 8pt; 
+	FONT-WEIGHT: normal
+}
+
+LI {
+	COLOR: #000066; FONT-FAMILY: verdana; FONT-SIZE: 12px; LIST-STYLE: none
+}
+UL {
+	BACKGROUND-COLOR: #ffffff; 
+	border: 1px solid #6694E3;
+	MARGIN: 0px; PADDING-BOTTOM: 8px; 
+	PADDING-LEFT: 8px; 
+	PADDING-RIGHT: 8px; 
+	PADDING-TOP: 8px
+}
+
+BODY {
+	scrollbar-face-color: #D2D2D2; scrollbar-arrow-color: #000000; scrollbar-base-color: #D2D2D2; scrollbar-shadow-color: #D2D2D2; scrollbar-darkshadow-color: #D2D2D2; scrollbar-highlight-color: #D2D2D2; scrollbar-3d-light-color: #D2D2D2; scrollbar-track-color: #F7F7F7
+}
+
+
+
+.todoList
+{
+
+position:relative; 
+width:100%; 
+height:100%; 
+overflow=scroll
+} 
+
+.floatRight{ 
+  float: right; 
+  margin: 4px
+  FONT-WEIGHT: bold;
+
+} 
+
+.content_{
+  position:relative;
+  background-image:url(../images/panelBackgroundReverse.gif);
+  background-repeat: repeat-x;
+  border: 1px solid #6694E3;
+  spacing:0px;
+  width:100%;
+  spacing:0px;
+  padding: 0px
+}
+
+
+.titlebar{
+  position:relative;
+  background-color: #D7D7D7 repeat;
+  background-image:url(../images/panelBackgroundReverse.gif);
+  background-position: top;
+  background-repeat: repeat-x;
+  text-align:left;
+  border:1px solid #6694E3;
+  COLOR: #990000; 
+  FONT: 10pt tahoma, verdana, arial;
+  FONT-WEIGHT: bold;
+  padding: 0px;
+  spacing:0px;
+  width:100%;
+  overflow:visible
+}
+
+.detailGoalTag{
+COLOR: #333333; FONT: 8pt tahoma, verdana, arial;
+}
+
+
+
+.table-border-grau {
+	border: 1px solid #DDDDDD;
+}
+
+.table-border-grauCopy {
+	border-top: 1px none #DDDDDD;
+	border-right: 1px none #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	border-left: 1px none #DDDDDD;
+}
+
+.formfeld-login {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	border: 1px solid #DDDDDD;
+
+}
+.formfeld-schrift {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	border: 1px none #DDDDDD;
+}
+.formfeld-login2 {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	border: 1px solid #DDDDDD;
+}
+
+
+
+.tableBorder1 {
+	border: 1px solid #000000;
+}
+
+.GroupBox1 {
+font-family:'MS Sans Serif';
+font-size:8px;
+position:absolute;
+left:25px;
+top:184px;
+width:149px;
+height:105px;
+}
+.FFemaleRadioButton {
+position:relative;
+left: 22px;
+top: 32px;
+}
+.tab{
+background: url('../images/panelBackground.gif');
+}
+.tabSelected{
+ background:#999999;
+} 
+.tabUnSelected{
+ background:#cccccc;
+}
+
+.grayLink{
+    color:gray;
+}
+/* Goal Details Tabs
+--------------------------------------------------------------- */
+.ui-tabs { zoom:1; }
+.ui-tabs .ui-tabs-nav { list-style-image:none; list-style-position:outside; list-style-type:none; position:relative; margin:.2em 0 .5em 0; padding:.2em .2em 0; }
+.ui-tabs .ui-helper-clearfix { display:block; *display:inline-block; }
+.ui-tabs .ui-helper-clearfix:after{
+	content:"";
+	clear:both;
+	display:block;
+	visibility:hidden;
+	height:0px;
+}
+.ui-tabs .ui-widget-header { background: url('../images/panelBackground4.gif'); }
+.ui-tabs .ui-tabs-nav li { position:relative; float:left; margin:0px .2em -1px 0px; padding:0px;}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected, .ui-tabs .ui-tabs-nav li.ui-state-hover { padding-bottom:1px; background-color:#EEE;}
+.ui-tabs .ui-tabs-nav li a, .ui-tabs .ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer;  }
+.ui-tabs .ui-tabs-nav li a { float:left; text-decoration:none; font-weight:900; padding:0.2em 1em; background-color:#EEE; color: #123272; border:1px solid #6694E3; border-bottom-width:0 !important; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-hover a { background-color:#EEE; color: #123272; border:1px solid #6694E3; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+.ui-tabs .ui-tabs-hide { display: none !important; }
+/* End Goal Details Tabs -------------------------------------- */
+
+.split-line {
+    background: #6694e3;
+}
+
+.progress-bar {
+    background: #6694e3;
+}
+
+.label {
+    font-size: 9pt;
+    font-weight: bold;
+    COLOR: #123272;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#loading {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}

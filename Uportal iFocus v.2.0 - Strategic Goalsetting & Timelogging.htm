@@ -1,4 +1,7 @@
-<html><head>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script language="JavaScript" type="text/javascript">
 	top.name = "UportaliFocusByWebServiceCenterBaseWindow_tl1_";
@@ -21,6 +24,40 @@
 <title> Uportal iFocus  v.2.0 - Strategic Goalsetting &amp; Timelogging </title>
 
 <meta http-equiv="PRAGMA" content="NO-CACHE">
+
+<style>
+	body {
+		margin: 0;
+		padding: 0;
+		max-width: 100vw;
+	}
+	.main-table {
+		width: 1000px;
+	}
+	iframe {
+		width: 500px;
+	}
+	@media (max-width: 880px) {
+		table {
+			max-width: 100vw;
+			width: 100%;
+		}
+		tr {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		iframe {
+			width: calc(100% - 6px);
+		}
+		.row-flex {
+			display: flex;
+			flex-direction: column;
+			max-width: 100vw;
+		}
+	}
+	
+</style>
+
 </head>
 
 
@@ -44,7 +81,7 @@
 
 
 
-<table border="0" cellpadding="0" cellspacing="0" width="1055">
+<table border="0" cellpadding="0" cellspacing="0" >
  <form></form>
   <tbody><tr>
         <!-- putting the module selection for the user -->
@@ -228,7 +265,7 @@
 
 
 
-	    <table border="0" cellpadding="0" cellspacing="0" width="1055">
+	    <table border="0" cellpadding="0" cellspacing="0" >
 		<tbody><tr>
  		 <td>
 		   <form name="formName" action="go.jsp" method="post">
@@ -518,7 +555,7 @@
 
 
 
-<table cellpadding="0" cellspacing="0" width="1055">
+<table cellpadding="0" cellspacing="0" class="main-table">
 
 									<tbody><tr>
 									      <td height="25" valign="bottom">
@@ -531,11 +568,11 @@
 										</td>
 						  			</tr>
 									<tr bgcolor="6694E3">
-									      <td colspan="9" width="1055" height="1"></td>
+									      <td colspan="9"  height="1"></td>
 						  			</tr>
 
 							<!-- opening the tasks area -->
-									<tr>
+									<tr class="row-flex">
 										<td valign="top">
 
 											<table>
@@ -688,7 +725,9 @@
                                                                                         </ul>
                                                                                         <div id="goals" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
 
-                                                                                            <iframe src="modules/timelog/components/goalAreaController.jsp?dateForThisArea=Thu Sep 19, 2024&amp;goalRecurrenceIdFirstArea=7&amp;goalRecurrenceIdSecondArea=6&amp;goalStatusIdSecondArea=1" height="320" width="650" frameborder="1" name="goals">
+                                                                                            <!-- <iframe src="modules/timelog/components/goalAreaController.jsp?dateForThisArea=Thu Sep 19, 2024&amp;goalRecurrenceIdFirstArea=7&amp;goalRecurrenceIdSecondArea=6&amp;goalStatusIdSecondArea=1" height="320" frameborder="1" name="goals"> -->
+																								<iframe src="goalAreaController.jsp.htm" height="320" frameborder="1" name="goals"></iframe>
+																								
                                                                                             </iframe>
                      
                                                                                         </div>
@@ -701,7 +740,7 @@
                                                                                          <script type="text/javascript">
 
 			$(document).ready(function(){
-				var iFrameTemplate = "<iframe src='[source]' name='[objectType]' width='650' height='320px;' scrolling='auto' frameborder='1'></iframe>";
+				var iFrameTemplate = "<iframe src='[source]' name='[objectType]' height='320px;' scrolling='auto' frameborder='1'></iframe>";
 
 				var $tabs = $("#tabs").tabs(
 				{
@@ -745,7 +784,7 @@
 	</tr>
 
 	<tr bgcolor="#6694E3">
-		      <td colspan="6" width="450" height="3"></td>
+		      <td colspan="6"  height="3"></td>
 	</tr>
 	  <tr>
 		   <td class="textheadingTotal" width="95"><b>TOTAL:</b><br>
@@ -771,7 +810,7 @@
 </tbody></table>
 <br>
 
-		   <table border="0" cellpadding="0" cellspacing="0" bgcolor="#e0ecff" width="1055">
+		   <table border="0" cellpadding="0" cellspacing="0" bgcolor="#e0ecff" >
 		    <tbody><tr>
 			 
 				<td>
